@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <DatePicker
+        android:id="@+id/dp1"
+        android:layout_width="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_height="wrap_content">
+    </DatePicker>
+    <Button
+        android:id="@+id/btn_date_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+        android:text="btn_date_dialog"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dp1"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/btn_date_dialog"
+        app:layout_constraintTop_toBottomOf="@+id/dp1"/>
+    <TextView
+        android:id="@+id/tv_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp" android:text="tv_date1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/tv_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp" android:text="tv_date2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_date1"/>
+</android.support.constraint.ConstraintLayout>

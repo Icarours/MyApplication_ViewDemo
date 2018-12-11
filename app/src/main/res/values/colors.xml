@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="color_back_ground_pure_white">#ffffff</color>
+    <!--常用字体颜色-->
+    <color name="color_text_gray">#8C91A9</color>
+    <color name="color_back_blue">#439EFF</color>
+    <color name="color_text_333333">#333333</color>
+    <color name="text_color_666666">#666666</color>
+    <color name="text_color_333333">#333333</color>
+    <color name="text_color_A7AABC">#A7AABC</color>
+    <color name="color_back_ground">#F7F7F7</color>
+</resources>
