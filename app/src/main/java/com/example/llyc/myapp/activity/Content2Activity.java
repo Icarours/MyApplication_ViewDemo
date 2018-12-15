@@ -13,8 +13,7 @@ import android.widget.Toast;
 
 import com.example.llyc.myapp.R;
 import com.example.llyc.myapp.bean.TitleBean;
-import com.example.llyc.myapp.fragment.content1.HaveExaminingFragment;
-import com.example.llyc.myapp.fragment.content1.RxEasyHttpFragment;
+import com.example.llyc.myapp.fragment.content2.RvRefreshFragment;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -47,9 +46,7 @@ public class Content2Activity extends AppCompatActivity {
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         int id = mTitleBean.getId();
         if (0 == id) {//测试
-            transaction.replace(R.id.fl_activity_content2, new RxEasyHttpFragment());
-        } else if (1 == id) {
-            transaction.replace(R.id.fl_activity_content2, new HaveExaminingFragment());
+            transaction.replace(R.id.fl_activity_content2, new RvRefreshFragment());
         }
         transaction.commit();
     }

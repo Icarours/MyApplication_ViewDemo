@@ -55,6 +55,7 @@ public class Content2Fragment extends BaseFragment {
     @Override
     public void initData() {
         mList = new ArrayList<>();
+        mList.add(new TitleBean(0,"RecyclerView 刷新框架","RecyclerView 刷新框架"));
         for (int i = 100; i < 220; i++) {
             TitleBean titleBean = new TitleBean(i, "title--" + i, "description--" + i);
             mList.add(titleBean);
