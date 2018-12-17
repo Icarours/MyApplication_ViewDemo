@@ -42,7 +42,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * Created by Bright on 2018/11/29.
  *
- * @Describe
+ * @Describe 多条目类型
  * @Called
  */
 public class Rv1Fragment extends BaseFragment {

@@ -57,7 +57,7 @@ public class Content1Fragment extends BaseFragment {
         mList.add(new TitleBean(1,"HaveExaminingFragment","HaveExaminingFragment"));
         mList.add(new TitleBean(2,"HaveExaminedFragment","HaveExaminedFragment"));
         mList.add(new TitleBean(3,"Activity Test","需要用到Activity的知识点."));
-        mList.add(new TitleBean(4,"Recyclerview","树形结构的Recyclerview."));
+        mList.add(new TitleBean(4,"Recyclerview","树形结构的Recyclerview.多条目类型"));
         mList.add(new TitleBean(5,"时间,日期控件","时间,日期控件"));
         mList.add(new TitleBean(6,"ExpandableListView","ExpandableListView(可折叠列表)的基本使用"));
         for (int i = 100; i < 120; i++) {
